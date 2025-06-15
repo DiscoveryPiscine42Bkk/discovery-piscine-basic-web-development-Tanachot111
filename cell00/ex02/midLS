@@ -1,1 +1,1 @@
-midLS
+mecho "ls -1 | grep -v '^\.' | paste -sd," > midLS
