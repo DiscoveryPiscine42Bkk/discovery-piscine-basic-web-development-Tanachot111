@@ -21,7 +21,7 @@
 
 .img {
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     background-image: url("man.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 }
 .contact {
     background-color: black;
-    width: 50%;
+    width: 100%;
     color: aliceblue;
     text-align: center;
 }
@@ -52,8 +52,8 @@
 }
 
 .ig {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-image: url("Instagram_logo_2022.svg");
     background-position: center;
     background-repeat: no-repeat;
