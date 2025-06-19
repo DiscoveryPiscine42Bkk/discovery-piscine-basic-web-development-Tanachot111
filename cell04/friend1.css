@@ -1,29 +1,30 @@
 .header. {
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 90px;
+    margin-bottom: 50px;
 }
-
 .box {
     display: flex;
     justify-content: center;
     padding-left: 65%;
 }
-.box1 {
+.text-box {
     transform: translateY(-950px);
-    padding-left: 65%;
+    flex-direction: column;
+    align-items: center;
     box-shadow: 1px 1px 1px 1px;
-    width: 5px;
-    height: 600px;
+    width: 1700px;
+    height: 700px;
     border-radius: 6px;
     background-color: rgb(255, 255, 255);
+}
+.text {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+  
 }
 .card {
-    transform: translateY(-200px);
+    transform: translateY(-150px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,12 +50,16 @@
     font-size: 40px;
     padding: 10px;    
 }
+
 .name1 {
     font-size: 50px;
     width: 100%;
     background-color: black;
     color: aliceblue;
     text-align: center;
+}
+.mkmk{
+    font-size: 45px;
 }
 .sxs {
     font-size: 40px;
@@ -111,12 +116,12 @@
 }
 .ta {
     opacity: 1;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     background-image: url("ครุศาสตร์-600x400.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 5px;
     padding-left: 45%;
-    margin: 25px;
+    margin: 30px;
